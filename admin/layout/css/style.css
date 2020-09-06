@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Modak&display=swap');
+h1{
+    font-size:35px;
+    margin:20px 0;
+
+}
+select {
+    font-family: 'FontAwesome', 'sans-serif';
+  }
+body{
+    background-color: #f4f4f4;
+    font-size:16px;
+}
+hr{
+    background-color: rgb(241, 235, 235);
+}
+.fa{
+    cursor: pointer;
+}
+textarea{
+    flex-wrap: wrap;
+}
+.asterisk{
+    font-size:25px;
+    position:absolute;
+    right:30px;
+    top:5px;
+    color:#D20707;
+}
+/* login form*/
+.login{
+    width:300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom:10px;
+}
+.login .inform-control{
+    background-color:#eaeaea;
+}
+/* login form*/
+/*navbar*/
+.navbar{
+    background-color:#e3e4e6;
+}
+.navbar-brand{
+    font-size:25px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000 !important;
+    font-family: "Teko", sans-serif;
+    font-size:22px;
+    padding-left:20px ;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.dropdown-menu
+{
+    color:#fff !important;
+    background-color:#3498db !important;
+}
+.dropdown-menu{
+    border-radius:0 ;
+    min-width:180px;
+    border:none;
+    margin: 0;
+}
+/*navbar*/
+/*******************************member page************************/
+.form-control{
+    position:relative;
+}
+/*add form*/
+.show-pass{
+    position:absolute;
+    top:8px;
+    right:-20px;
+    font-size:18px;
+}
+/*table*/
+.main-table tr:first-child td{
+    background-color:#333;
+    color:#fff;
+}
+.manage-member img{
+height:50px;
+width:50px;
+}
+/*table*/
+/*******************************dashboard page************************/
+/*dashboard*/
+.home-stats .stat{
+    color:#EEE;
+    border:1px solid #CCC;
+    padding:20px;
+    font-size:15px;
+    border-radius: 10px;
+
+}
+.home-stats .stat a{
+    color:#FFF;
+}
+.home-stats .stat span{
+    font-size:50px;
+    display:block;
+}
+.latest{
+    margin-top:30px;
+}
+.latest .card-header{
+    cursor: pointer;
+}
+.home-stats .st-pending{
+    background-color: #3498db;
+}
+.home-stats .st-item{
+    background-color: #079213;
+}
+.home-stats .st-comment{
+    background-color: #ad0969;
+}
+.home-stats .st-member{
+    background-color: #c23b06;
+}
+.list-unstyled{
+    margin-bottom:0;
+     /* علشان الزراير تيجي تحت بعض*/
+}
+.list-unstyled li{
+    margin:8px;
+    overflow : hidden;
+    padding:8px ;
+}
+.list-unstyled li:nth-child(odd){
+    background-color:rgb(241, 235, 235);
+}
+.list-unstyled li .btn-success{
+  font-size:10px;
+}
+
+.list-unstyled li .btn-success .fa{
+    margin-right:  5px;
+}
+.list-unstyled li .btn-info{
+    font-size:10px;
+    margin-right:  5px;
+}
+/*comment box*/
+ .comment-box{
+    margin: 5px 0 10px;
+    display:inline-block;
+
+}
+
+
+.comment-box .member-n {
+    width:80px;
+    text-align:center;
+    margin-right:40px;
+    float: inherit;
+    position: relative;
+    top: 7px;
+    
+}
+.comment-box .member-n a{
+    color:#000;
+    text-decoration: none;
+}
+.comment-box .member-c{
+    width:350px;
+    background:#efefefef;
+    padding:10px;
+    position: relative;
+    float:right;
+
+}
+.comment-box .member-c:before{
+    content:"";
+    display:block;
+    position:absolute;
+    left:-27px;
+    top:7px;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-color:transparent #efefefef transparent transparent;
+    border-width:15px;
+}
+.dis{
+    opacity: 0;
+    max-height: 0;
+    padding:0 !important;
+    display:none;
+    }
+    .card{
+        animation: showItem 1s ease;
+    
+    }
+        @keyframes showItem{
+            0%{
+                -webkit-transform:scale(0.8);
+                transform:scale(0.8);
+            }
+            100%{
+                -webkit-transform:scale(1);
+                transform:scale(1);
+            }
+        }
+    
+/*dashboard*/
+/*********************************category ****************************/
+/*category manage*/
+.categories .cat{
+    margin: 0 0 10px;
+   
+    padding-bottom:10px;
+    position:relative;
+    overflow: hidden;
+}
+.categories .cat:last-child{
+    border-bottom:none;
+}
+.categories .cat h3{
+    font-family: 'Abel', sans-serif;
+    font-weight:700;
+}
+.categories .cat p{
+    margin:10px;
+
+}
+.categories .cat p span{
+    color:rgb(16, 9, 53);
+    font-weight: 500;
+    font-size:18px;
+
+}
+.categories hr:last-child{
+    display: none;
+}
+.categories .cat .visibility{
+    background-color:#c0392b;
+    color:#fff;
+    padding:4px 6px;
+    margin-right:5px;
+    border-radius:6px;
+}
+.categories .cat .commenting{
+    background-color:#2c3e50;
+    color:#fff;
+    padding:4px 6px;
+    margin-right:5px;
+    border-radius:6px;
+}
+.categories .cat .advertise{
+    background-color:#c0392b;
+    color:#fff;
+    padding:4px 6px;
+    margin-right:5px;
+    border-radius:6px;
+}
+.categories .cat .hidden-button{
+    position:absolute;
+    top:3px;
+    right:-170px;
+    overflow: hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.card-body{
+    padding-bottom: 0;
+}
+.categories .cat:hover .hidden-button{
+    right:10px;
+}
+.categories .cat .hidden-button a{
+    margin-right:5px;
+}
+.categories .cat h3{
+    cursor: pointer;
+    margin-bottom: 0 !important;
+}
+.categories .ordering a{
+    color:#888;
+    text-decoration:none;
+    cursor: pointer;
+}
+.categories .ordering .active{
+    color:#c0392b;
+    border-bottom: 1px solid #000;
+}
+
+
+/*category manage*/
+/********************items********************/
+/*manage items*/
+.manage-items img{
+    height:70px;
+    width:70px;
+    }

@@ -2,7 +2,7 @@
 
 highlights:
 
-. Pure PHP
+* Pure PHP
 . Code Organised
 . OOP Syntax
 . Based on MVC architecture design
